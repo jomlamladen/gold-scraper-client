@@ -1,0 +1,1177 @@
+[00:00:00.736] Server  LOG      ✓ Ready in 526ms
+[00:00:03.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.851] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:03.851] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:00:03.851] Browser LOG     [API Service] Using MOCK data
+[00:00:03.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.948] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.954] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:03.954] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:03.954] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244812462}
+[00:00:04.149] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:00:04.149] Browser ERROR   Greška pri učitavanju podataka zlata: {}
+[00:00:04.372] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:04.372] Browser LOG     [API Service] Fetching product detail... 2
+[00:00:04.372] Browser LOG     [API Service] Using MOCK data
+[00:00:04.372] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:04.372] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:00:04.372] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244812579}
+[00:00:04.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.194] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:05.194] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:00:05.194] Browser LOG     [API Service] Using MOCK data
+[00:00:05.194] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.194] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:05.194] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244813702}
+[00:00:05.373] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:00:05.373] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:00:05.373] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:05.373] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:00:05.373] Browser LOG     [API Service] Using MOCK data
+[00:00:05.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:05.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244812845}
+[00:00:05.373] Browser ERROR   Greška pri učitavanju podataka zlata: {}
+[00:00:05.373] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.373] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.373] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.373] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.373] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.373] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.373] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:00:05.467] Browser ERROR   Greška pri učitavanju podataka zlata: {}
+[00:00:05.467] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.467] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.467] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.467] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.467] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.467] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:05.467] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:00:37.379] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:37.379] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:37.379] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:37.385] Server  LOG      ✓ Compiled in 82ms
+[00:00:38.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:38.216] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:38.216] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:00:38.216] Browser LOG     [API Service] Using MOCK data
+[00:00:38.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:38.322] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:38.322] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:38.322] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244846830}
+[00:00:38.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:38.556] Browser ERROR   Greška pri učitavanju podataka zlata: {}
+[00:00:38.557] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:38.557] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:38.557] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:38.557] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:38.557] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:38.557] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:38.557] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:00:39.376] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:39.376] Browser LOG     [API Service] Fetching product detail... 2
+[00:00:39.376] Browser LOG     [API Service] Using MOCK data
+[00:00:39.376] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:39.376] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:00:39.376] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244846984}
+[00:00:39.376] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:39.376] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:00:39.376] Browser LOG     [API Service] Using MOCK data
+[00:00:39.376] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:39.376] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:39.376] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244847361}
+[00:00:39.376] Browser ERROR   Greška pri učitavanju podataka zlata: {}
+[00:00:39.376] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:39.376] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:39.376] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:39.376] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:39.376] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:39.376] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:40.371] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:00:40.371] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:00:40.372] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:00:53.739] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:53.739] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:53.742] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:53.876] Server  LOG      ✓ Compiled in 85ms
+[00:00:54.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:54.425] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:54.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:54.606] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:54.606] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:00:54.606] Browser LOG     [API Service] Using MOCK data
+[00:00:54.606] Browser LOG     [Price History] Using MOCK data
+[00:00:54.606] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:54.606] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:54.606] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:54.606] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:54.606] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:54.606] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:54.774] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:54.774] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:54.774] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244863228}
+[00:00:54.774] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:00:55.372] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:55.372] Browser LOG     [API Service] Fetching product detail... 2
+[00:00:55.372] Browser LOG     [API Service] Using MOCK data
+[00:00:55.372] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:55.372] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:00:55.372] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244863158}
+[00:00:55.372] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:00:55.372] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:00:55.372] Browser LOG     [API Service] Using MOCK data
+[00:00:55.372] Browser LOG     [Price History] Using MOCK data
+[00:00:55.372] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:55.372] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:55.372] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:55.372] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:55.372] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:55.372] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:55.372] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:55.372] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:55.372] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244863671}
+[00:00:56.372] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:00:56.378] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:00:56.378] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:02:15.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:16.260] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:02:16.260] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:02:16.260] Browser LOG     [API Service] Using MOCK data
+[00:02:16.260] Browser LOG     [Price History] Using MOCK data
+[00:02:16.260] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:16.260] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:16.260] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:16.260] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:16.260] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:16.260] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:16.415] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:16.415] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:16.415] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244944873}
+[00:02:16.415] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:02:46.590] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:46.591] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:46.592] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:46.621] Server  LOG      ✓ Compiled in 66ms
+[00:02:47.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:47.536] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:02:47.536] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:02:47.536] Browser LOG     [API Service] Using MOCK data
+[00:02:47.537] Browser LOG     [Price History] Using MOCK data
+[00:02:47.537] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:47.537] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:47.537] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:47.537] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:47.537] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:47.537] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:47.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:47.662] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:47.662] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:47.662] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244976157}
+[00:02:47.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:48.373] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:02:48.373] Browser LOG     [API Service] Fetching product detail... 2
+[00:02:48.373] Browser LOG     [API Service] Using MOCK data
+[00:02:48.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:48.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:02:48.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244976271}
+[00:02:48.374] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:02:48.374] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:02:48.374] Browser LOG     [API Service] Using MOCK data
+[00:02:48.374] Browser LOG     [Price History] Using MOCK data
+[00:02:48.374] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:48.374] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:48.374] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:48.374] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:48.374] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:48.374] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:48.374] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:48.374] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:48.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244976782}
+[00:02:49.372] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:02:49.372] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:02:58.080] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:58.118] Server  LOG      ✓ Compiled in 30ms
+[00:02:58.342] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:59.373] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:02:59.373] Browser LOG     [API Service] Fetching product detail... 2
+[00:02:59.373] Browser LOG     [API Service] Using MOCK data
+[00:02:59.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:59.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:02:59.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763244987020}
+[00:03:00.372] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:03:00.372] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:03:14.867] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:14.918] Server  LOG      ✓ Compiled in 129ms
+[00:03:15.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:16.379] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:03:16.379] Browser LOG     [API Service] Fetching product detail... 2
+[00:03:16.379] Browser LOG     [API Service] Using MOCK data
+[00:03:16.379] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:16.379] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:03:16.379] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245003950}
+[00:03:17.377] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:03:17.377] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:03:23.116] Server  LOG      ✓ Compiled in 110ms
+[00:03:23.219] Browser ERROR   ./Downloads/goldara/components/price-modal.tsx:148:13
+Parsing ecmascript source code failed
+  146 |               ))}
+  147 |             </div>
+> 148 |           </div>
+      |             ^^^
+  149 |         </div>
+  150 |       </div>
+  151 |     </>
+
+Expected '</', got 'div'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/goldara/components/price-modal.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-card.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-grid.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-grid.tsx [Server Component]
+    ./Downloads/goldara/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/goldara/components/price-modal.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-card.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-grid.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-grid.tsx [Server Component]
+    ./Downloads/goldara/app/page.tsx [Server Component]
+[00:03:23.371] Browser ERROR   ./Downloads/goldara/components/price-modal.tsx:148:13
+Parsing ecmascript source code failed
+  146 |               ))}
+  147 |             </div>
+> 148 |           </div>
+      |             ^^^
+  149 |         </div>
+  150 |       </div>
+  151 |     </>
+
+Expected '</', got 'div'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/goldara/components/price-modal.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-card.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-grid.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-grid.tsx [Server Component]
+    ./Downloads/goldara/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/goldara/components/price-modal.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-card.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-grid.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-grid.tsx [Server Component]
+    ./Downloads/goldara/app/page.tsx [Server Component]
+[00:03:23.371] Browser ERROR   ./Downloads/goldara/components/price-modal.tsx:148:13
+Parsing ecmascript source code failed
+  146 |               ))}
+  147 |             </div>
+> 148 |           </div>
+      |             ^^^
+  149 |         </div>
+  150 |       </div>
+  151 |     </>
+
+Expected '</', got 'div'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/goldara/components/price-modal.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-card.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-grid.tsx [Client Component Browser]
+    ./Downloads/goldara/components/product-grid.tsx [Server Component]
+    ./Downloads/goldara/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/goldara/components/price-modal.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-card.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-grid.tsx [Client Component SSR]
+    ./Downloads/goldara/components/product-grid.tsx [Server Component]
+    ./Downloads/goldara/app/page.tsx [Server Component]
+[00:03:27.930] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:28.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:29.373] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:03:29.373] Browser LOG     [API Service] Fetching product detail... 2
+[00:03:29.373] Browser LOG     [API Service] Using MOCK data
+[00:03:29.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:29.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:03:29.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245017106}
+[00:03:30.372] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:03:30.372] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:05:32.983] Browser LOG     [API Service] Fetching product detail... 1
+[00:05:32.984] Browser LOG     [API Service] Using MOCK data
+[00:05:43.158] Browser LOG     [API Service] Fetching product detail... 1
+[00:05:43.158] Browser LOG     [API Service] Using MOCK data
+[00:05:43.158] Browser LOG     [API Service] Fetching product detail... 1
+[00:05:43.158] Browser LOG     [API Service] Using MOCK data
+[00:05:43.158] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245151664}
+[00:05:43.463] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ProductDetailPage 1. useContext                 useContext
+2. useContext                 useContext
+3. useState                   useState
+4. useState                   useState
+5. useState                   useState
+6. useState                   useState
+7. useState                   useState
+8. useState                   useState
+9. useState                   useState
+10. useEffect                 useEffect
+11. useCallback               useCallback
+12. useCallback               useCallback
+13. undefined                 useMemo
+
+[00:05:43.463] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[00:06:38.857] Server  LOG      ✓ Compiled in 209ms
+[00:06:38.858] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:38.947] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:39.314] Browser LOG     [API Service] Fetching product detail... 1
+[00:06:39.314] Browser LOG     [API Service] Using MOCK data
+[00:06:39.314] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245207492}
+[00:06:39.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:39.762] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:06:39.762] Browser LOG     [API Service] Fetching product detail... 1
+[00:06:39.762] Browser LOG     [API Service] Using MOCK data
+[00:06:39.763] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:39.763] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/1","route":"/products/[id]"}
+[00:06:39.763] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245208272}
+[00:06:39.931] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:40.229] Browser WARN    Image with src "/gold-bar-1g-luxury-premium.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:40.373] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:06:40.373] Browser LOG     [API Service] Fetching product detail... 2
+[00:06:40.373] Browser LOG     [API Service] Using MOCK data
+[00:06:40.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:40.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/2","route":"/products/[id]"}
+[00:06:40.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/2 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245208639}
+[00:07:53.700] Server  LOG      ✓ Compiled in 141ms
+[00:08:02.500] Server  LOG      ✓ Compiled in 40ms
+[00:08:21.469] Server  LOG      ✓ Compiled in 129ms
+[00:08:52.168] Server  LOG      ✓ Compiled in 51ms
+[00:10:03.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:03.208] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:10:03.208] Browser LOG     [API Service] Fetching product detail... 1
+[00:10:03.208] Browser LOG     [API Service] Using MOCK data
+[00:10:03.208] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:03.208] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/1","route":"/products/[id]"}
+[00:10:03.208] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245411732}
+[00:10:03.737] Browser WARN    Image with src "/gold-bar-1g-luxury-premium.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:13:39.398] Server  LOG      ✓ Compiled in 33ms
+[00:13:55.373] Server  LOG      ✓ Compiled in 62ms
+[00:13:56.373] Browser LOG     [API Service] Fetching product detail... 2
+[00:13:56.373] Browser LOG     [API Service] Using MOCK data
+[00:13:56.373] Browser LOG     [API Service] Fetching product detail... 1
+[00:13:56.373] Browser LOG     [API Service] Using MOCK data
+[00:14:21.093] Server  LOG      ✓ Compiled in 34ms
+[00:14:27.447] Server  LOG      ✓ Compiled in 33ms
+[00:14:37.841] Server  LOG      ✓ Compiled in 43ms
+[00:14:42.746] Server  LOG      ✓ Compiled in 32ms
+[00:14:47.984] Server  LOG      ✓ Compiled in 31ms
+[00:14:53.187] Server  LOG      ✓ Compiled in 30ms
+[00:15:00.140] Server  LOG      ✓ Compiled in 173ms
+[00:15:38.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:38.585] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:15:38.729] Browser LOG     [API Service] Fetching product detail... 1
+[00:15:38.729] Browser LOG     [API Service] Using MOCK data
+[00:15:38.729] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:38.729] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/1","route":"/products/[id]"}
+[00:15:38.729] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245747253}
+[00:15:39.152] Browser WARN    Image with src "/gold-bar-1g-luxury-premium.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:42.354] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:15:42.354] Browser LOG     [API Service] Using MOCK data
+[00:15:42.354] Browser LOG     [Price History] Using MOCK data
+[00:15:42.354] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:15:42.354] Browser LOG     [API Service] Using MOCK data
+[00:15:42.354] Browser LOG     [Price History] Using MOCK data
+[00:15:42.354] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:42.354] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:42.354] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:42.354] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:42.354] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:42.354] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:42.354] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245750638}
+[00:15:51.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:52.437] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:15:52.437] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:15:52.437] Browser LOG     [API Service] Using MOCK data
+[00:15:52.437] Browser LOG     [Price History] Using MOCK data
+[00:15:52.437] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:52.437] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:52.437] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:52.437] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:52.437] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:52.437] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:15:52.646] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:52.646] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:52.646] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245761155}
+[00:15:52.646] Browser WARN    Image with src "/gold-bar-1g-luxury-premium.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:42.211] Server  LOG      ✓ Compiled in 75ms
+[00:17:14.907] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:15.900] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:17:15.900] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:17:15.900] Browser LOG     [API Service] Using MOCK data
+[00:17:15.900] Browser LOG     [Price History] Using MOCK data
+[00:17:15.900] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:15.900] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:15.900] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:15.900] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:15.900] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:15.900] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:16.183] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:16.183] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:16.183] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245844563}
+[00:17:16.184] Browser WARN    Image with src "/gold-bar-5g-precious-metal.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:22.054] Server  LOG      ✓ Compiled in 84ms
+[00:17:22.212] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:17:22.374] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:17:22.374] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:17:27.687] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:27.853] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:17:27.853] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:17:27.853] Browser LOG     [API Service] Using REAL API
+[00:17:27.853] Browser LOG     [Price History] Fetching from external API
+[00:17:27.976] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:27.976] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:27.976] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763245856502}
+[00:17:28.210] Browser WARN    [Price History] External API unavailable, using fallback data: {}
+[00:17:28.210] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:28.210] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:28.210] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:28.210] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:28.210] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:17:28.210] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:18:30.432] Server  LOG      ✓ Compiled in 57ms
+[00:18:51.818] Server  LOG      ✓ Compiled in 89ms
+[00:19:03.334] Server  LOG      ✓ Compiled in 31ms
+[00:19:26.504] Server  LOG      ✓ Compiled in 46ms
+[00:19:51.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:51.813] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:19:51.813] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:19:51.813] Browser LOG     [API Service] Using REAL API
+[00:19:51.813] Browser LOG     [Price History] Fetching from external API
+[00:19:51.914] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:51.914] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:51.914] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246000440}
+[00:19:52.162] Browser WARN    [Price History] External API unavailable, using fallback data: {}
+[00:19:52.162] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:19:52.162] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:19:52.162] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:19:52.162] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:19:52.162] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:19:52.162] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:19:53.832] Browser WARN    Image with src "/gold-bar-1g-luxury-premium.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:20:10.784] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:20:10.784] Browser LOG     [API Service] Using REAL API
+[00:20:10.784] Browser ERROR   [API Service] Error fetching product detail: {}
+[00:20:10.784] Browser ERROR   Failed to load product detail: {}
+[00:20:13.495] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:20:13.495] Browser LOG     [API Service] Using REAL API
+[00:20:13.495] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:20:13.495] Browser LOG     [API Service] Using REAL API
+[00:20:13.495] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece9d7815e06440c2366a color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece9d7815e06440c2366a","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246022009}
+[00:20:13.495] Browser ERROR   [API Service] Error fetching product detail: {}
+[00:20:13.495] Browser ERROR   Failed to load product: {}
+[00:20:13.495] Browser ERROR   [API Service] Error fetching product detail: {}
+[00:20:13.495] Browser ERROR   Failed to load product: {}
+[00:20:46.876] Server  LOG      ✓ Compiled in 64ms
+[00:20:46.955] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:20:46.955] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:20:46.955] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:20:47.375] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:20:47.375] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:20:55.514] Server  LOG      ✓ Compiled in 35ms
+[00:21:01.733] Server  LOG      ✓ Compiled in 30ms
+[00:21:54.847] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:54.992] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:21:54.992] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:21:54.992] Browser LOG     [API Service] Using MOCK data
+[00:21:54.992] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:21:54.992] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/68dece9d7815e06440c2366a","route":"/products/[id]"}
+[00:21:54.992] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece9d7815e06440c2366a color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece9d7815e06440c2366a","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246123517}
+[00:21:55.290] Browser ERROR   Failed to load product: {}
+[00:22:40.218] Server  LOG      ✓ Compiled in 50ms
+[00:22:40.300] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:22:40.370] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:22:40.371] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:23:02.677] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:02.935] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:23:02.935] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:23:02.935] Browser LOG     [API Service] Using REAL API
+[00:23:02.935] Browser ERROR   [API Service] Error fetching product detail: {}
+[00:23:02.935] Browser WARN    [API Service] Falling back to MOCK data...
+[00:23:02.935] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:23:02.935] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/68dece9d7815e06440c2366a","route":"/products/[id]"}
+[00:23:02.935] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece9d7815e06440c2366a color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece9d7815e06440c2366a","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246191368}
+[00:23:02.935] Browser ERROR   Failed to load product: {}
+[00:26:04.983] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:04.983] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:26:05.130] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:26:05.130] Browser LOG     [API Service] Using REAL API
+[00:26:05.130] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:05.130] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/68dece9d7815e06440c2366a","route":"/products/[id]"}
+[00:26:05.130] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece9d7815e06440c2366a color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece9d7815e06440c2366a","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246373657}
+[00:26:06.050] Browser ERROR   [API Service] Error fetching product detail: {}
+[00:26:06.050] Browser WARN    [API Service] Falling back to MOCK data...
+[00:26:06.152] Browser ERROR   Failed to load product: {}
+[00:26:51.600] Server  LOG      ✓ Compiled in 48ms
+[00:26:52.374] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:26:52.374] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:26:52.375] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:27:11.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:11.303] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:27:11.303] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:27:11.303] Browser LOG     [API Service] Using REAL API
+[00:27:11.303] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:11.303] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/68dece9d7815e06440c2366a","route":"/products/[id]"}
+[00:27:11.303] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece9d7815e06440c2366a color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece9d7815e06440c2366a","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246439830}
+[00:27:13.280] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'lastScrapeTime')
+[00:27:32.657] Server  LOG      ✓ Compiled in 85ms
+[00:27:32.680] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:27:33.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:33.762] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:27:33.762] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:27:33.762] Browser LOG     [API Service] Using REAL API
+[00:27:33.762] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:33.762] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/68dece9d7815e06440c2366a","route":"/products/[id]"}
+[00:27:33.762] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece9d7815e06440c2366a color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece9d7815e06440c2366a","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246462288}
+[00:27:36.047] Browser WARN    Image with src "/gold-bar-100g-luxury-ingot.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:29:07.805] Server  LOG      ✓ Compiled in 77ms
+[00:29:07.960] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:29:07.960] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 39min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 38min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 39min"}]
+[00:29:07.960] Browser LOG     [Chart Debug] Using API historical data
+[00:29:07.960] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:29:07.960] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 39min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 38min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 39min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 39min"}]
+[00:29:07.960] Browser LOG     [Chart Debug] Using API historical data
+[00:29:08.372] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:29:08.372] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:29:08.372] Browser LOG     [Chart Debug] Generating mock historical data
+[00:29:08.372] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14295,"GoldShop.rs":14155,"MetalStore.com":14146,"PreciousMetal.co":14292,"month":"Jan","Аурум.rs":14279},{"GoldHub.net":14236,"GoldShop.rs":14235,"MetalStore.com":14148,"PreciousMetal.co":14268,"month":"Feb","Аурум.rs":14156},{"GoldHub.net":14208,"GoldShop.rs":14203,"MetalStore.com":14169,"PreciousMetal.co":14212,"month":"Mar","Аурум.rs":14259},{"GoldHub.net":14207,"GoldShop.rs":14338,"MetalStore.com":14226,"PreciousMetal.co":14184,"month":"Apr","Аурум.rs":14274},{"GoldHub.net":14349,"GoldShop.rs":14300,"MetalStore.com":14330,"PreciousMetal.co":14256,"month":"Maj","Аурум.rs":14265},{"GoldHub.net":14259,"GoldShop.rs":14370,"MetalStore.com":14320,"PreciousMetal.co":14266,"month":"Jun","Аурум.rs":14308},{"GoldHub.net":14268,"GoldShop.rs":14288,"MetalStore.com":14232,"PreciousMetal.co":14288,"month":"Jul","Аурум.rs":14330},{"GoldHub.net":14326,"GoldShop.rs":14296,"MetalStore.com":14303,"PreciousMetal.co":14242,"month":"Avg","Аурум.rs":14212},{"GoldHub.net":14243,"GoldShop.rs":14227,"MetalStore.com":14321,"PreciousMetal.co":14359,"month":"Sep","Аурум.rs":14404},{"GoldHub.net":14334,"GoldShop.rs":14413,"MetalStore.com":14354,"PreciousMetal.co":14251,"month":"Okt","Аурум.rs":14370},{"GoldHub.net":14394,"GoldShop.rs":14436,"MetalStore.com":14337,"PreciousMetal.co":14373,"month":"Nov","Аурум.rs":14267},{"GoldHub.net":14356,"GoldShop.rs":14309,"MetalStore.com":14360,"PreciousMetal.co":14302,"month":"Dec","Аурум.rs":14312}]
+[00:29:08.372] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:29:08.372] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:29:08.372] Browser LOG     [Chart Debug] Generating mock historical data
+[00:29:08.372] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14242,"GoldShop.rs":14224,"MetalStore.com":14184,"PreciousMetal.co":14269,"month":"Jan","Аурум.rs":14101},{"GoldHub.net":14130,"GoldShop.rs":14312,"MetalStore.com":14178,"PreciousMetal.co":14252,"month":"Feb","Аурум.rs":14138},{"GoldHub.net":14249,"GoldShop.rs":14247,"MetalStore.com":14236,"PreciousMetal.co":14279,"month":"Mar","Аурум.rs":14280},{"GoldHub.net":14297,"GoldShop.rs":14152,"MetalStore.com":14273,"PreciousMetal.co":14208,"month":"Apr","Аурум.rs":14303},{"GoldHub.net":14238,"GoldShop.rs":14290,"MetalStore.com":14181,"PreciousMetal.co":14253,"month":"Maj","Аурум.rs":14268},{"GoldHub.net":14201,"GoldShop.rs":14207,"MetalStore.com":14219,"PreciousMetal.co":14266,"month":"Jun","Аурум.rs":14214},{"GoldHub.net":14258,"GoldShop.rs":14190,"MetalStore.com":14347,"PreciousMetal.co":14191,"month":"Jul","Аурум.rs":14232},{"GoldHub.net":14369,"GoldShop.rs":14359,"MetalStore.com":14218,"PreciousMetal.co":14352,"month":"Avg","Аурум.rs":14257},{"GoldHub.net":14290,"GoldShop.rs":14362,"MetalStore.com":14304,"PreciousMetal.co":14312,"month":"Sep","Аурум.rs":14330},{"GoldHub.net":14345,"GoldShop.rs":14361,"MetalStore.com":14384,"PreciousMetal.co":14240,"month":"Okt","Аурум.rs":14276},{"GoldHub.net":14323,"GoldShop.rs":14333,"MetalStore.com":14401,"PreciousMetal.co":14335,"month":"Nov","Аурум.rs":14390},{"GoldHub.net":14412,"GoldShop.rs":14374,"MetalStore.com":14371,"PreciousMetal.co":14311,"month":"Dec","Аурум.rs":14360}]
+[00:29:24.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:24.335] Browser LOG     [API Config] 🟢 REAL API MODE
+[00:29:24.335] Browser LOG     [API Service] Fetching product detail... 68dece9d7815e06440c2366a
+[00:29:24.335] Browser LOG     [API Service] Using REAL API
+[00:29:24.335] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:24.335] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/68dece9d7815e06440c2366a","route":"/products/[id]"}
+[00:29:24.335] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece9d7815e06440c2366a color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece9d7815e06440c2366a","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246572862}
+[00:29:26.321] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:29:26.321] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 40min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 41min"}]
+[00:29:26.321] Browser LOG     [Chart Debug] Using API historical data
+[00:29:26.321] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:29:26.321] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 40min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 41min"}]
+[00:29:26.321] Browser LOG     [Chart Debug] Using API historical data
+[00:29:26.423] Browser WARN    Image with src "/gold-bar-100g-luxury-ingot.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:32:05.173] Server  LOG      ✓ Compiled in 97ms
+[00:32:05.282] Browser ERROR   ./Downloads/goldara/app/products/[id]/page.tsx:832:18
+Parsing ecmascript source code failed
+  830 |                 </LineChart>
+  831 |               </ResponsiveContainer>
+> 832 |                 </div>
+      |                  ^^^^^
+  833 |             </div>
+  834 |           )}
+  835 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/goldara/app/products/[id]/page.tsx [Client Component Browser]
+    ./Downloads/goldara/app/products/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/goldara/app/products/[id]/page.tsx [Client Component SSR]
+    ./Downloads/goldara/app/products/[id]/page.tsx [Server Component]
+[00:32:05.377] Browser ERROR   ./Downloads/goldara/app/products/[id]/page.tsx:832:18
+Parsing ecmascript source code failed
+  830 |                 </LineChart>
+  831 |               </ResponsiveContainer>
+> 832 |                 </div>
+      |                  ^^^^^
+  833 |             </div>
+  834 |           )}
+  835 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/goldara/app/products/[id]/page.tsx [Client Component Browser]
+    ./Downloads/goldara/app/products/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/goldara/app/products/[id]/page.tsx [Client Component SSR]
+    ./Downloads/goldara/app/products/[id]/page.tsx [Server Component]
+[00:32:05.377] Browser ERROR   ./Downloads/goldara/app/products/[id]/page.tsx:832:18
+Parsing ecmascript source code failed
+  830 |                 </LineChart>
+  831 |               </ResponsiveContainer>
+> 832 |                 </div>
+      |                  ^^^^^
+  833 |             </div>
+  834 |           )}
+  835 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/goldara/app/products/[id]/page.tsx [Client Component Browser]
+    ./Downloads/goldara/app/products/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/goldara/app/products/[id]/page.tsx [Client Component SSR]
+    ./Downloads/goldara/app/products/[id]/page.tsx [Server Component]
+[00:32:24.503] Server  LOG      ✓ Compiled in 41ms
+[00:32:24.507] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:32:24.507] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 40min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 41min"}]
+[00:32:24.507] Browser LOG     [Chart Debug] Using API historical data
+[00:32:24.507] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:32:24.507] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 40min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 41min"}]
+[00:32:24.507] Browser LOG     [Chart Debug] Using API historical data
+[00:32:25.371] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:32:25.371] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:32:25.371] Browser LOG     [Chart Debug] Generating mock historical data
+[00:32:25.371] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14103,"GoldShop.rs":14162,"MetalStore.com":14150,"PreciousMetal.co":14148,"month":"Jan","Аурум.rs":14194},{"GoldHub.net":14171,"GoldShop.rs":14243,"MetalStore.com":14288,"PreciousMetal.co":14230,"month":"Feb","Аурум.rs":14148},{"GoldHub.net":14309,"GoldShop.rs":14218,"MetalStore.com":14194,"PreciousMetal.co":14156,"month":"Mar","Аурум.rs":14166},{"GoldHub.net":14295,"GoldShop.rs":14226,"MetalStore.com":14288,"PreciousMetal.co":14172,"month":"Apr","Аурум.rs":14155},{"GoldHub.net":14237,"GoldShop.rs":14323,"MetalStore.com":14359,"PreciousMetal.co":14274,"month":"Maj","Аурум.rs":14272},{"GoldHub.net":14219,"GoldShop.rs":14250,"MetalStore.com":14339,"PreciousMetal.co":14188,"month":"Jun","Аурум.rs":14259},{"GoldHub.net":14205,"GoldShop.rs":14218,"MetalStore.com":14238,"PreciousMetal.co":14309,"month":"Jul","Аурум.rs":14212},{"GoldHub.net":14294,"GoldShop.rs":14208,"MetalStore.com":14402,"PreciousMetal.co":14394,"month":"Avg","Аурум.rs":14312},{"GoldHub.net":14261,"GoldShop.rs":14378,"MetalStore.com":14222,"PreciousMetal.co":14296,"month":"Sep","Аурум.rs":14353},{"GoldHub.net":14268,"GoldShop.rs":14300,"MetalStore.com":14368,"PreciousMetal.co":14282,"month":"Okt","Аурум.rs":14428},{"GoldHub.net":14282,"GoldShop.rs":14448,"MetalStore.com":14383,"PreciousMetal.co":14324,"month":"Nov","Аурум.rs":14393},{"GoldHub.net":14286,"GoldShop.rs":14420,"MetalStore.com":14432,"PreciousMetal.co":14398,"month":"Dec","Аурум.rs":14298}]
+[00:32:25.371] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:32:25.371] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:32:25.371] Browser LOG     [Chart Debug] Generating mock historical data
+[00:32:25.371] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14253,"GoldShop.rs":14112,"MetalStore.com":14260,"PreciousMetal.co":14192,"month":"Jan","Аурум.rs":14123},{"GoldHub.net":14290,"GoldShop.rs":14254,"MetalStore.com":14243,"PreciousMetal.co":14131,"month":"Feb","Аурум.rs":14241},{"GoldHub.net":14290,"GoldShop.rs":14288,"MetalStore.com":14320,"PreciousMetal.co":14157,"month":"Mar","Аурум.rs":14202},{"GoldHub.net":14207,"GoldShop.rs":14176,"MetalStore.com":14299,"PreciousMetal.co":14251,"month":"Apr","Аурум.rs":14146},{"GoldHub.net":14193,"GoldShop.rs":14310,"MetalStore.com":14213,"PreciousMetal.co":14345,"month":"Maj","Аурум.rs":14256},{"GoldHub.net":14186,"GoldShop.rs":14324,"MetalStore.com":14220,"PreciousMetal.co":14355,"month":"Jun","Аурум.rs":14333},{"GoldHub.net":14269,"GoldShop.rs":14253,"MetalStore.com":14383,"PreciousMetal.co":14352,"month":"Jul","Аурум.rs":14230},{"GoldHub.net":14323,"GoldShop.rs":14362,"MetalStore.com":14365,"PreciousMetal.co":14275,"month":"Avg","Аурум.rs":14366},{"GoldHub.net":14288,"GoldShop.rs":14385,"MetalStore.com":14394,"PreciousMetal.co":14357,"month":"Sep","Аурум.rs":14316},{"GoldHub.net":14256,"GoldShop.rs":14351,"MetalStore.com":14425,"PreciousMetal.co":14394,"month":"Okt","Аурум.rs":14333},{"GoldHub.net":14420,"GoldShop.rs":14349,"MetalStore.com":14356,"PreciousMetal.co":14288,"month":"Nov","Аурум.rs":14429},{"GoldHub.net":14403,"GoldShop.rs":14277,"MetalStore.com":14347,"PreciousMetal.co":14363,"month":"Dec","Аурум.rs":14385}]
+[00:32:56.415] Server  LOG      ✓ Compiled in 73ms
+[00:32:56.519] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:32:56.519] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 40min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 41min"}]
+[00:32:56.519] Browser LOG     [Chart Debug] Using API historical data
+[00:32:56.519] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395,"date":"2025-11-16","month":"Nov"}]
+[00:32:56.519] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":1288505,"date":"2025-10-02","highest":1295000,"lowest":1278530,"month":"Oct","shops":{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632}},{"average":1184146,"date":"2025-11-16","highest":1306395,"lowest":186000,"month":"Nov","shops":{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395}}],"period":"12_months"}
+[00:32:56.519] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":0,"pricePerGram":0,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 40min"},{"availability":"in_stock","price":186000,"pricePerGram":1860,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1251435,"pricePerGram":12514.35,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1278530,"pricePerGram":12785.3,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1295000,"pricePerGram":12950,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 41min"},{"availability":"in_stock","price":1303674,"pricePerGram":13036.74,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1304820,"pricePerGram":13048.2,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 40min"},{"availability":"in_stock","price":1306395,"pricePerGram":13063.95,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 41min"}]
+[00:32:56.519] Browser LOG     [Chart Debug] Using API historical data
+[00:32:56.519] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":1278530,"GVSSrbija.rs":1294680,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1292632,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":1295420,"GVSSrbija.rs":1304820,"GoldRoyal.rs":1295000,"GoldenSpace.rs":1303674,"KupiZlato.com":1295234,"Tavex.rs":1251435,"Zlataracordier.rs":186000,"ZlatoMoje.rs":1306395,"date":"2025-11-16","month":"Nov"}]
+[00:32:57.372] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:32:57.372] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:32:57.372] Browser LOG     [Chart Debug] Generating mock historical data
+[00:32:57.372] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14197,"GoldShop.rs":14228,"MetalStore.com":14183,"PreciousMetal.co":14274,"month":"Jan","Аурум.rs":14226},{"GoldHub.net":14167,"GoldShop.rs":14268,"MetalStore.com":14236,"PreciousMetal.co":14240,"month":"Feb","Аурум.rs":14181},{"GoldHub.net":14238,"GoldShop.rs":14173,"MetalStore.com":14161,"PreciousMetal.co":14138,"month":"Mar","Аурум.rs":14186},{"GoldHub.net":14278,"GoldShop.rs":14288,"MetalStore.com":14203,"PreciousMetal.co":14162,"month":"Apr","Аурум.rs":14215},{"GoldHub.net":14260,"GoldShop.rs":14198,"MetalStore.com":14289,"PreciousMetal.co":14326,"month":"Maj","Аурум.rs":14314},{"GoldHub.net":14302,"GoldShop.rs":14271,"MetalStore.com":14332,"PreciousMetal.co":14245,"month":"Jun","Аурум.rs":14344},{"GoldHub.net":14284,"GoldShop.rs":14316,"MetalStore.com":14291,"PreciousMetal.co":14275,"month":"Jul","Аурум.rs":14360},{"GoldHub.net":14278,"GoldShop.rs":14333,"MetalStore.com":14311,"PreciousMetal.co":14225,"month":"Avg","Аурум.rs":14347},{"GoldHub.net":14276,"GoldShop.rs":14300,"MetalStore.com":14362,"PreciousMetal.co":14377,"month":"Sep","Аурум.rs":14412},{"GoldHub.net":14347,"GoldShop.rs":14425,"MetalStore.com":14319,"PreciousMetal.co":14337,"month":"Okt","Аурум.rs":14382},{"GoldHub.net":14250,"GoldShop.rs":14357,"MetalStore.com":14268,"PreciousMetal.co":14317,"month":"Nov","Аурум.rs":14303},{"GoldHub.net":14434,"GoldShop.rs":14388,"MetalStore.com":14278,"PreciousMetal.co":14401,"month":"Dec","Аурум.rs":14320}]
+[00:32:57.372] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:32:57.372] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:32:57.372] Browser LOG     [Chart Debug] Generating mock historical data
+[00:32:57.372] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14229,"GoldShop.rs":14291,"MetalStore.com":14282,"PreciousMetal.co":14204,"month":"Jan","Аурум.rs":14263},{"GoldHub.net":14176,"GoldShop.rs":14261,"MetalStore.com":14126,"PreciousMetal.co":14303,"month":"Feb","Аурум.rs":14207},{"GoldHub.net":14306,"GoldShop.rs":14316,"MetalStore.com":14176,"PreciousMetal.co":14205,"month":"Mar","Аурум.rs":14189},{"GoldHub.net":14321,"GoldShop.rs":14184,"MetalStore.com":14146,"PreciousMetal.co":14267,"month":"Apr","Аурум.rs":14328},{"GoldHub.net":14184,"GoldShop.rs":14296,"MetalStore.com":14270,"PreciousMetal.co":14350,"month":"Maj","Аурум.rs":14224},{"GoldHub.net":14365,"GoldShop.rs":14199,"MetalStore.com":14295,"PreciousMetal.co":14266,"month":"Jun","Аурум.rs":14219},{"GoldHub.net":14301,"GoldShop.rs":14373,"MetalStore.com":14317,"PreciousMetal.co":14324,"month":"Jul","Аурум.rs":14338},{"GoldHub.net":14304,"GoldShop.rs":14346,"MetalStore.com":14217,"PreciousMetal.co":14294,"month":"Avg","Аурум.rs":14326},{"GoldHub.net":14286,"GoldShop.rs":14287,"MetalStore.com":14351,"PreciousMetal.co":14388,"month":"Sep","Аурум.rs":14386},{"GoldHub.net":14380,"GoldShop.rs":14264,"MetalStore.com":14428,"PreciousMetal.co":14296,"month":"Okt","Аурум.rs":14406},{"GoldHub.net":14316,"GoldShop.rs":14315,"MetalStore.com":14357,"PreciousMetal.co":14408,"month":"Nov","Аурум.rs":14438},{"GoldHub.net":14383,"GoldShop.rs":14454,"MetalStore.com":14267,"PreciousMetal.co":14333,"month":"Dec","Аурум.rs":14339}]
+[00:34:54.308] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:34:54.308] Browser LOG     [API Service] Using REAL API
+[00:34:54.308] Browser LOG     [Price History] Fetching from external API
+[00:34:54.308] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:34:54.308] Browser LOG     [API Service] Using REAL API
+[00:34:54.308] Browser LOG     [Price History] Fetching from external API
+[00:34:54.308] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246902757}
+[00:34:54.817] Browser WARN    [Price History] External API unavailable, using fallback data: {}
+[00:34:54.817] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:34:54.817] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:34:54.817] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:34:54.817] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:34:54.817] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:34:54.817] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:34:55.100] Browser WARN    [Price History] External API unavailable, using fallback data: {}
+[00:35:01.589] Browser LOG     [API Service] Fetching product detail... 68dece987815e06440c2365e
+[00:35:01.589] Browser LOG     [API Service] Using REAL API
+[00:35:01.589] Browser LOG     [API Service] Fetching product detail... 68dece987815e06440c2365e
+[00:35:01.589] Browser LOG     [API Service] Using REAL API
+[00:35:01.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece987815e06440c2365e color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece987815e06440c2365e","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763246910126}
+[00:35:03.833] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":62310,"date":"2025-10-02","highest":408710,"lowest":14290,"month":"Oct","shops":{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592}},{"average":223095,"date":"2025-11-16","highest":1354571,"lowest":13524,"month":"Nov","shops":{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630}}],"period":"12_months"}
+[00:35:03.833] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14713,"pricePerGram":14713,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"InvesticionoZlato.rs","shopUrl":"https://investiciono-zlato.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":14940,"pricePerGram":14940,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15047,"pricePerGram":15047,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15076,"pricePerGram":15076,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":212401,"pricePerGram":212401,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":259260,"pricePerGram":259260,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 46min"},{"availability":"in_stock","price":412100,"pricePerGram":412100,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 46min"}]
+[00:35:03.833] Browser LOG     [Chart Debug] Using API historical data
+[00:35:03.833] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630,"date":"2025-11-16","month":"Nov"}]
+[00:35:03.833] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":62310,"date":"2025-10-02","highest":408710,"lowest":14290,"month":"Oct","shops":{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592}},{"average":223095,"date":"2025-11-16","highest":1354571,"lowest":13524,"month":"Nov","shops":{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630}}],"period":"12_months"}
+[00:35:03.833] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14713,"pricePerGram":14713,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"InvesticionoZlato.rs","shopUrl":"https://investiciono-zlato.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":14940,"pricePerGram":14940,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15047,"pricePerGram":15047,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15076,"pricePerGram":15076,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":212401,"pricePerGram":212401,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":259260,"pricePerGram":259260,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 46min"},{"availability":"in_stock","price":412100,"pricePerGram":412100,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 46min"}]
+[00:35:03.833] Browser LOG     [Chart Debug] Using API historical data
+[00:35:03.833] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630,"date":"2025-11-16","month":"Nov"}]
+[00:35:05.917] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":62310,"date":"2025-10-02","highest":408710,"lowest":14290,"month":"Oct","shops":{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592}},{"average":223095,"date":"2025-11-16","highest":1354571,"lowest":13524,"month":"Nov","shops":{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630}}],"period":"12_months"}
+[00:35:05.917] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14713,"pricePerGram":14713,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"InvesticionoZlato.rs","shopUrl":"https://investiciono-zlato.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":14940,"pricePerGram":14940,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15047,"pricePerGram":15047,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15076,"pricePerGram":15076,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":212401,"pricePerGram":212401,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":259260,"pricePerGram":259260,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 46min"},{"availability":"in_stock","price":412100,"pricePerGram":412100,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 46min"}]
+[00:35:05.917] Browser LOG     [Chart Debug] Using API historical data
+[00:35:05.917] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630,"date":"2025-11-16","month":"Nov"}]
+[00:35:05.917] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":62310,"date":"2025-10-02","highest":408710,"lowest":14290,"month":"Oct","shops":{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592}},{"average":223095,"date":"2025-11-16","highest":1354571,"lowest":13524,"month":"Nov","shops":{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630}}],"period":"12_months"}
+[00:35:05.917] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14713,"pricePerGram":14713,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"InvesticionoZlato.rs","shopUrl":"https://investiciono-zlato.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":14940,"pricePerGram":14940,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15047,"pricePerGram":15047,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15076,"pricePerGram":15076,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":212401,"pricePerGram":212401,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":259260,"pricePerGram":259260,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 46min"},{"availability":"in_stock","price":412100,"pricePerGram":412100,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 46min"}]
+[00:35:05.917] Browser LOG     [Chart Debug] Using API historical data
+[00:35:05.917] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630,"date":"2025-11-16","month":"Nov"}]
+[00:36:51.697] Server  LOG      ✓ Compiled in 74ms
+[00:36:51.810] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:36:51.812] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:36:51.815] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:36:51.815] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":62310,"date":"2025-10-02","highest":408710,"lowest":14290,"month":"Oct","shops":{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592}},{"average":223095,"date":"2025-11-16","highest":1354571,"lowest":13524,"month":"Nov","shops":{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630}}],"period":"12_months"}
+[00:36:51.815] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14713,"pricePerGram":14713,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"InvesticionoZlato.rs","shopUrl":"https://investiciono-zlato.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":14940,"pricePerGram":14940,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15047,"pricePerGram":15047,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15076,"pricePerGram":15076,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":212401,"pricePerGram":212401,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":259260,"pricePerGram":259260,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 46min"},{"availability":"in_stock","price":412100,"pricePerGram":412100,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 46min"}]
+[00:36:51.815] Browser LOG     [Chart Debug] Using API historical data
+[00:36:51.815] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630,"date":"2025-11-16","month":"Nov"}]
+[00:36:51.815] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[{"average":62310,"date":"2025-10-02","highest":408710,"lowest":14290,"month":"Oct","shops":{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592}},{"average":223095,"date":"2025-11-16","highest":1354571,"lowest":13524,"month":"Nov","shops":{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630}}],"period":"12_months"}
+[00:36:51.815] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14713,"pricePerGram":14713,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"InvesticionoZlato.rs","shopUrl":"https://investiciono-zlato.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":14940,"pricePerGram":14940,"rating":4.2,"shippingInfo":"Besplatna dostava preko 10.000 RSD","shop":"GVSSrbija.rs","shopUrl":"https://gvssrbija.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.6,"shippingInfo":"Dostava 300 RSD","shop":"GoldRoyal.rs","shopUrl":"https://goldroyal.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15000,"pricePerGram":15000,"rating":4.4,"shippingInfo":"Dostava 300 RSD","shop":"Zlataracordier.rs","shopUrl":"https://zlataracordier.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":15047,"pricePerGram":15047,"rating":4.3,"shippingInfo":"Besplatna dostava","shop":"KupiZlato.com","shopUrl":"https://kupizlato.com","updatedAt":"Pre 46min"},{"availability":"in_stock","price":15076,"pricePerGram":15076,"rating":4.3,"shippingInfo":"Dostava 250 RSD","shop":"GoldenSpace.rs","shopUrl":"https://goldenspace.rs","updatedAt":"Pre 46min"},{"availability":"in_stock","price":212401,"pricePerGram":212401,"rating":4.5,"shippingInfo":"Besplatna dostava","shop":"ZlatoMoje.rs","shopUrl":"https://zlatomoje.rs","updatedAt":"Pre 47min"},{"availability":"in_stock","price":259260,"pricePerGram":259260,"rating":4.7,"shippingInfo":"Besplatna dostava","shop":"Tavex.rs","shopUrl":"Unknown","updatedAt":"Pre 46min"},{"availability":"in_stock","price":412100,"pricePerGram":412100,"rating":4.4,"shippingInfo":"Besplatna dostava","shop":"DunavGold.rs","shopUrl":"https://dunavgold.rs","updatedAt":"Pre 46min"}]
+[00:36:51.815] Browser LOG     [Chart Debug] Using API historical data
+[00:36:51.816] Browser LOG     [Chart Debug] Transformed data: [{"DunavGold.rs":14290,"GVSSrbija.rs":14490,"GoldRoyal.rs":15000,"GoldenSpace.rs":14951,"InvesticionoZlato.rs":14592,"date":"2025-10-02","month":"Oct"},{"DunavGold.rs":44640,"GVSSrbija.rs":14600,"GoldRoyal.rs":15000,"GoldenSpace.rs":15076,"InvesticionoZlato.rs":14713,"KupiZlato.com":15047,"Tavex.rs":392730,"Zlataracordier.rs":15000,"ZlatoMoje.rs":14630,"date":"2025-11-16","month":"Nov"}]
+[00:36:52.373] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:36:52.373] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:36:52.373] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:36:52.373] Browser LOG     [Chart Debug] Generating mock historical data
+[00:36:52.373] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14164,"GoldShop.rs":14210,"MetalStore.com":14148,"PreciousMetal.co":14124,"month":"Jan","Аурум.rs":14140},{"GoldHub.net":14305,"GoldShop.rs":14199,"MetalStore.com":14313,"PreciousMetal.co":14300,"month":"Feb","Аурум.rs":14199},{"GoldHub.net":14311,"GoldShop.rs":14323,"MetalStore.com":14313,"PreciousMetal.co":14246,"month":"Mar","Аурум.rs":14203},{"GoldHub.net":14279,"GoldShop.rs":14212,"MetalStore.com":14298,"PreciousMetal.co":14163,"month":"Apr","Аурум.rs":14344},{"GoldHub.net":14170,"GoldShop.rs":14308,"MetalStore.com":14269,"PreciousMetal.co":14178,"month":"Maj","Аурум.rs":14193},{"GoldHub.net":14185,"GoldShop.rs":14341,"MetalStore.com":14231,"PreciousMetal.co":14242,"month":"Jun","Аурум.rs":14276},{"GoldHub.net":14288,"GoldShop.rs":14275,"MetalStore.com":14228,"PreciousMetal.co":14250,"month":"Jul","Аурум.rs":14256},{"GoldHub.net":14322,"GoldShop.rs":14380,"MetalStore.com":14375,"PreciousMetal.co":14238,"month":"Avg","Аурум.rs":14224},{"GoldHub.net":14413,"GoldShop.rs":14361,"MetalStore.com":14397,"PreciousMetal.co":14370,"month":"Sep","Аурум.rs":14342},{"GoldHub.net":14288,"GoldShop.rs":14344,"MetalStore.com":14369,"PreciousMetal.co":14258,"month":"Okt","Аурум.rs":14349},{"GoldHub.net":14324,"GoldShop.rs":14399,"MetalStore.com":14341,"PreciousMetal.co":14396,"month":"Nov","Аурум.rs":14389},{"GoldHub.net":14306,"GoldShop.rs":14293,"MetalStore.com":14360,"PreciousMetal.co":14268,"month":"Dec","Аурум.rs":14294}]
+[00:36:52.373] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:36:52.373] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":14200,"pricePerGram":2840,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"3m"},{"availability":"in_stock","price":14350,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":14450,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"1h"},{"availability":"in_stock","price":14600,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"18m"},{"availability":"in_stock","price":14400,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:36:52.373] Browser LOG     [Chart Debug] Generating mock historical data
+[00:36:52.373] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":14121,"GoldShop.rs":14169,"MetalStore.com":14228,"PreciousMetal.co":14106,"month":"Jan","Аурум.rs":14180},{"GoldHub.net":14117,"GoldShop.rs":14132,"MetalStore.com":14167,"PreciousMetal.co":14304,"month":"Feb","Аурум.rs":14184},{"GoldHub.net":14288,"GoldShop.rs":14166,"MetalStore.com":14322,"PreciousMetal.co":14191,"month":"Mar","Аурум.rs":14256},{"GoldHub.net":14322,"GoldShop.rs":14218,"MetalStore.com":14153,"PreciousMetal.co":14207,"month":"Apr","Аурум.rs":14223},{"GoldHub.net":14304,"GoldShop.rs":14164,"MetalStore.com":14220,"PreciousMetal.co":14321,"month":"Maj","Аурум.rs":14319},{"GoldHub.net":14347,"GoldShop.rs":14187,"MetalStore.com":14282,"PreciousMetal.co":14203,"month":"Jun","Аурум.rs":14186},{"GoldHub.net":14254,"GoldShop.rs":14326,"MetalStore.com":14388,"PreciousMetal.co":14356,"month":"Jul","Аурум.rs":14356},{"GoldHub.net":14266,"GoldShop.rs":14254,"MetalStore.com":14294,"PreciousMetal.co":14298,"month":"Avg","Аурум.rs":14370},{"GoldHub.net":14318,"GoldShop.rs":14351,"MetalStore.com":14227,"PreciousMetal.co":14370,"month":"Sep","Аурум.rs":14256},{"GoldHub.net":14246,"GoldShop.rs":14360,"MetalStore.com":14294,"PreciousMetal.co":14317,"month":"Okt","Аурум.rs":14369},{"GoldHub.net":14424,"GoldShop.rs":14346,"MetalStore.com":14415,"PreciousMetal.co":14294,"month":"Nov","Аурум.rs":14402},{"GoldHub.net":14346,"GoldShop.rs":14366,"MetalStore.com":14401,"PreciousMetal.co":14462,"month":"Dec","Аурум.rs":14350}]
+[00:36:52.374] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:36:53.396] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:53.396] Browser LOG     [API Config] 🔵 MOCK MODE
+[00:36:53.527] Browser LOG     [API Service] Fetching product detail... 68dece987815e06440c2365e
+[00:36:53.527] Browser LOG     [API Service] Using MOCK data
+[00:36:53.527] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:36:53.527] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/68dece987815e06440c2365e","route":"/products/[id]"}
+[00:36:53.527] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/68dece987815e06440c2365e color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/68dece987815e06440c2365e","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763247022066}
+[00:36:53.812] Browser ERROR   Failed to load product: {}
+[00:36:56.597] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:36:56.597] Browser LOG     [API Service] Using MOCK data
+[00:36:56.597] Browser LOG     [Price History] Using MOCK data
+[00:36:56.597] Browser LOG     [API Service] Fetching products... {"category":"all","limit":50,"page":1,"sortBy":"updated_desc"}
+[00:36:56.597] Browser LOG     [API Service] Using MOCK data
+[00:36:56.597] Browser LOG     [Price History] Using MOCK data
+[00:36:56.597] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763247024974}
+[00:36:56.597] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:36:56.597] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:36:56.597] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:36:56.597] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:36:56.597] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:36:56.597] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:37:01.081] Browser LOG     [API Service] Fetching product detail... 1
+[00:37:01.081] Browser LOG     [API Service] Using MOCK data
+[00:37:01.081] Browser LOG     [API Service] Fetching product detail... 1
+[00:37:01.081] Browser LOG     [API Service] Using MOCK data
+[00:37:01.081] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/1 color: rgb(120, 120, 120) color: inherit {"dp":"/products/[id]","o":"http://localhost:3000/products/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763247029619}
+[00:37:01.395] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:37:01.395] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":2920,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"15m"},{"availability":"in_stock","price":2890,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"2h"},{"availability":"in_stock","price":2880,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":2870,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"12m"},{"availability":"in_stock","price":2850,"pricePerGram":2850,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:37:01.395] Browser LOG     [Chart Debug] Generating mock historical data
+[00:37:01.395] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":2915,"GoldShop.rs":2938,"MetalStore.com":2888,"PreciousMetal.co":2849,"month":"Jan","Аурум.rs":2772},{"GoldHub.net":2831,"GoldShop.rs":2865,"MetalStore.com":2829,"PreciousMetal.co":2892,"month":"Feb","Аурум.rs":2770},{"GoldHub.net":2953,"GoldShop.rs":2829,"MetalStore.com":2809,"PreciousMetal.co":2929,"month":"Mar","Аурум.rs":2865},{"GoldHub.net":2983,"GoldShop.rs":2853,"MetalStore.com":2952,"PreciousMetal.co":2978,"month":"Apr","Аурум.rs":2922},{"GoldHub.net":2841,"GoldShop.rs":2820,"MetalStore.com":2909,"PreciousMetal.co":2860,"month":"Maj","Аурум.rs":2981},{"GoldHub.net":3012,"GoldShop.rs":2887,"MetalStore.com":2874,"PreciousMetal.co":2960,"month":"Jun","Аурум.rs":2886},{"GoldHub.net":2852,"GoldShop.rs":2962,"MetalStore.com":2925,"PreciousMetal.co":2985,"month":"Jul","Аурум.rs":3015},{"GoldHub.net":3037,"GoldShop.rs":3004,"MetalStore.com":3035,"PreciousMetal.co":2855,"month":"Avg","Аурум.rs":2934},{"GoldHub.net":2998,"GoldShop.rs":2898,"MetalStore.com":2959,"PreciousMetal.co":3036,"month":"Sep","Аурум.rs":3024},{"GoldHub.net":3081,"GoldShop.rs":2906,"MetalStore.com":2940,"PreciousMetal.co":2964,"month":"Okt","Аурум.rs":2931},{"GoldHub.net":2963,"GoldShop.rs":3088,"MetalStore.com":3052,"PreciousMetal.co":3072,"month":"Nov","Аурум.rs":2948},{"GoldHub.net":3050,"GoldShop.rs":3111,"MetalStore.com":3065,"PreciousMetal.co":3049,"month":"Dec","Аурум.rs":2958}]
+[00:37:01.395] Browser LOG     [Chart Debug] product.historicalData: {"dataPoints":[],"period":"12_months"}
+[00:37:01.395] Browser LOG     [Chart Debug] product.priceData: [{"availability":"in_stock","price":2920,"pricePerGram":2920,"shop":"PreciousMetal.co","shopUrl":"https://example.com","updatedAt":"15m"},{"availability":"in_stock","price":2890,"pricePerGram":2890,"shop":"Аурум.rs","shopUrl":"https://example.com","updatedAt":"2h"},{"availability":"in_stock","price":2880,"pricePerGram":2880,"shop":"GoldHub.net","shopUrl":"https://example.com","updatedAt":"8m"},{"availability":"in_stock","price":2870,"pricePerGram":2870,"shop":"MetalStore.com","shopUrl":"https://example.com","updatedAt":"12m"},{"availability":"in_stock","price":2850,"pricePerGram":2850,"shop":"GoldShop.rs","shopUrl":"https://example.com","updatedAt":"5m"}]
+[00:37:01.395] Browser LOG     [Chart Debug] Generating mock historical data
+[00:37:01.395] Browser LOG     [Chart Debug] Generated data: [{"GoldHub.net":2800,"GoldShop.rs":2833,"MetalStore.com":2938,"PreciousMetal.co":2836,"month":"Jan","Аурум.rs":2776},{"GoldHub.net":2802,"GoldShop.rs":2838,"MetalStore.com":2832,"PreciousMetal.co":2866,"month":"Feb","Аурум.rs":2948},{"GoldHub.net":2803,"GoldShop.rs":2792,"MetalStore.com":2971,"PreciousMetal.co":2965,"month":"Mar","Аурум.rs":2906},{"GoldHub.net":2933,"GoldShop.rs":2956,"MetalStore.com":2930,"PreciousMetal.co":2953,"month":"Apr","Аурум.rs":2920},{"GoldHub.net":2967,"GoldShop.rs":2926,"MetalStore.com":2985,"PreciousMetal.co":2961,"month":"Maj","Аурум.rs":2969},{"GoldHub.net":2944,"GoldShop.rs":2967,"MetalStore.com":2985,"PreciousMetal.co":2842,"month":"Jun","Аурум.rs":2960},{"GoldHub.net":2920,"GoldShop.rs":2860,"MetalStore.com":2919,"PreciousMetal.co":2961,"month":"Jul","Аурум.rs":2852},{"GoldHub.net":3037,"GoldShop.rs":2895,"MetalStore.com":2922,"PreciousMetal.co":2961,"month":"Avg","Аурум.rs":3011},{"GoldHub.net":3004,"GoldShop.rs":2908,"MetalStore.com":3068,"PreciousMetal.co":2963,"month":"Sep","Аурум.rs":3062},{"GoldHub.net":2964,"GoldShop.rs":2897,"MetalStore.com":2986,"PreciousMetal.co":2911,"month":"Okt","Аурум.rs":2941},{"GoldHub.net":3046,"GoldShop.rs":3042,"MetalStore.com":2950,"PreciousMetal.co":3065,"month":"Nov","Аурум.rs":2921},{"GoldHub.net":2946,"GoldShop.rs":3039,"MetalStore.com":3108,"PreciousMetal.co":3013,"month":"Dec","Аурум.rs":2979}]

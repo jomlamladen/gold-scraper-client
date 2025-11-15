@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/b7b4c_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_e3ab2476._.js",
+    "static/chunks/b7b4c_next_dist_compiled_react-dom_f49eee03._.js",
+    "static/chunks/b7b4c_next_dist_compiled_react-server-dom-turbopack_ff0e08e2._.js",
+    "static/chunks/b7b4c_next_dist_compiled_next-devtools_index_5c2c62b7.js",
+    "static/chunks/b7b4c_next_dist_compiled_0c59bcd3._.js",
+    "static/chunks/b7b4c_next_dist_client_980e3069._.js",
+    "static/chunks/b7b4c_next_dist_8ffcbb7c._.js",
+    "static/chunks/b7b4c_@swc_helpers_cjs_30921d72._.js",
+    "static/chunks/Downloads_goldara_a0ff3932._.js",
+    "static/chunks/turbopack-Downloads_goldara_78140e2f._.js"
+  ]
+}

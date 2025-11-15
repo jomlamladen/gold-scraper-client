@@ -1,0 +1,302 @@
+{
+  "success": true,
+  "data": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Zlatna poluga Argor Heraeus 5g",
+        "weight": "5g",
+        "purity": "999.9",
+        "image": "/images/gold-bar-5g.jpg",
+        "description": "Certificirana zlatna poluga od 5 grama",
+        "category": "gold_bars",
+        "priceRange": {
+          "lowest": 14120,
+          "highest": 14600,
+          "average": 14350,
+          "difference": 480,
+          "lowestShop": "Aypym.rs",
+          "highestShop": "PreciousMetal.co"
+        },
+        "availability": "in_stock",
+        "shopCount": 5,
+        "lastUpdated": "2024-01-15T10:30:00Z",
+        "trending": {
+          "direction": "up",
+          "percentChange": 2.5,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Zlatna poluga Argor Heraeus 10g",
+        "weight": "10g",
+        "purity": "999.9",
+        "image": "/images/gold-bar-10g.jpg",
+        "description": "Certificirana zlatna poluga od 10 grama",
+        "category": "gold_bars",
+        "priceRange": {
+          "lowest": 28240,
+          "highest": 29200,
+          "average": 28700,
+          "difference": 960,
+          "lowestShop": "GoldHub.net",
+          "highestShop": "MetalStore.com"
+        },
+        "availability": "limited_stock",
+        "shopCount": 5,
+        "lastUpdated": "2024-01-15T09:45:00Z",
+        "trending": {
+          "direction": "down",
+          "percentChange": -1.2,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Zlatna poluga Argor Heraeus 20g",
+        "weight": "20g",
+        "purity": "999.9",
+        "image": "/images/gold-bar-20g.jpg",
+        "description": "Certificirana zlatna poluga od 20 grama",
+        "category": "gold_bars",
+        "priceRange": {
+          "lowest": 56480,
+          "highest": 58400,
+          "average": 57400,
+          "difference": 1920,
+          "lowestShop": "Aypym.rs",
+          "highestShop": "PreciousMetal.co"
+        },
+        "availability": "in_stock",
+        "shopCount": 5,
+        "lastUpdated": "2024-01-15T11:00:00Z",
+        "trending": {
+          "direction": "stable",
+          "percentChange": 0.3,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Zlatna poluga Argor Heraeus 50g",
+        "weight": "50g",
+        "purity": "999.9",
+        "image": "/images/gold-bar-50g.jpg",
+        "description": "Certificirana zlatna poluga od 50 grama",
+        "category": "gold_bars",
+        "priceRange": {
+          "lowest": 141200,
+          "highest": 146000,
+          "average": 143500,
+          "difference": 4800,
+          "lowestShop": "Aypym.rs",
+          "highestShop": "PreciousMetal.co"
+        },
+        "availability": "in_stock",
+        "shopCount": 5,
+        "lastUpdated": "2024-01-15T10:15:00Z",
+        "trending": {
+          "direction": "up",
+          "percentChange": 1.8,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Zlatna poluga Argor Heraeus 100g",
+        "weight": "100g",
+        "purity": "999.9",
+        "image": "/images/gold-bar-100g.jpg",
+        "description": "Certificirana zlatna poluga od 100 grama",
+        "category": "gold_bars",
+        "priceRange": {
+          "lowest": 282400,
+          "highest": 292000,
+          "average": 287000,
+          "difference": 9600,
+          "lowestShop": "GoldHub.net",
+          "highestShop": "MetalStore.com"
+        },
+        "availability": "limited_stock",
+        "shopCount": 5,
+        "lastUpdated": "2024-01-15T10:45:00Z",
+        "trending": {
+          "direction": "stable",
+          "percentChange": -0.5,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Zlatnik Austrijsko Dukat 1oz",
+        "weight": "31.1g (1oz)",
+        "purity": "986",
+        "image": "/images/austrian-ducat-1oz.jpg",
+        "description": "Zlatan novčić Austrijski Dukat 1 unca",
+        "category": "gold_coins",
+        "priceRange": {
+          "lowest": 87800,
+          "highest": 91200,
+          "average": 89500,
+          "difference": 3400,
+          "lowestShop": "GoldShop.rs",
+          "highestShop": "PreciousMetal.co"
+        },
+        "availability": "in_stock",
+        "shopCount": 4,
+        "lastUpdated": "2024-01-15T09:30:00Z",
+        "trending": {
+          "direction": "up",
+          "percentChange": 3.2,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Zlatnik Krugerrand 1oz",
+        "weight": "33.93g (1oz)",
+        "purity": "916.7",
+        "image": "/images/krugerrand-1oz.jpg",
+        "description": "Južnoafrički Krugerrand 1 unca",
+        "category": "gold_coins",
+        "priceRange": {
+          "lowest": 96000,
+          "highest": 99500,
+          "average": 97750,
+          "difference": 3500,
+          "lowestShop": "Aypym.rs",
+          "highestShop": "MetalStore.com"
+        },
+        "availability": "in_stock",
+        "shopCount": 5,
+        "lastUpdated": "2024-01-15T11:20:00Z",
+        "trending": {
+          "direction": "down",
+          "percentChange": -0.8,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Zlatnik Maple Leaf 1oz",
+        "weight": "31.1g (1oz)",
+        "purity": "999.9",
+        "image": "/images/maple-leaf-1oz.jpg",
+        "description": "Kanadski Maple Leaf 1 unca",
+        "category": "gold_coins",
+        "priceRange": {
+          "lowest": 91500,
+          "highest": 95000,
+          "average": 93250,
+          "difference": 3500,
+          "lowestShop": "GoldHub.net",
+          "highestShop": "PreciousMetal.co"
+        },
+        "availability": "limited_stock",
+        "shopCount": 4,
+        "lastUpdated": "2024-01-15T10:00:00Z",
+        "trending": {
+          "direction": "stable",
+          "percentChange": 0.1,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Srebrna poluga Argor Heraeus 100g",
+        "weight": "100g",
+        "purity": "999",
+        "image": "/images/silver-bar-100g.jpg",
+        "description": "Certificirana srebrna poluga od 100 grama",
+        "category": "silver_bars",
+        "priceRange": {
+          "lowest": 3800,
+          "highest": 4100,
+          "average": 3950,
+          "difference": 300,
+          "lowestShop": "MetalStore.com",
+          "highestShop": "GoldShop.rs"
+        },
+        "availability": "in_stock",
+        "shopCount": 4,
+        "lastUpdated": "2024-01-15T09:15:00Z",
+        "trending": {
+          "direction": "up",
+          "percentChange": 1.5,
+          "period": "24h"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Srebrna poluga Argor Heraeus 250g",
+        "weight": "250g",
+        "purity": "999",
+        "image": "/images/silver-bar-250g.jpg",
+        "description": "Certificirana srebrna poluga od 250 grama",
+        "category": "silver_bars",
+        "priceRange": {
+          "lowest": 9400,
+          "highest": 10200,
+          "average": 9800,
+          "difference": 800,
+          "lowestShop": "Aypym.rs",
+          "highestShop": "PreciousMetal.co"
+        },
+        "availability": "in_stock",
+        "shopCount": 5,
+        "lastUpdated": "2024-01-15T11:10:00Z",
+        "trending": {
+          "direction": "stable",
+          "percentChange": -0.2,
+          "period": "24h"
+        }
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "totalPages": 10,
+      "totalItems": 94,
+      "itemsPerPage": 10,
+      "hasNextPage": true,
+      "hasPreviousPage": false
+    },
+    "filters": {
+      "appliedCategory": "all",
+      "appliedSortBy": "updated_desc",
+      "availableCategories": [
+        {
+          "value": "all",
+          "label": "Svi proizvodi",
+          "count": 94
+        },
+        {
+          "value": "gold_bars",
+          "label": "Zlatne poluge",
+          "count": 45
+        },
+        {
+          "value": "gold_coins",
+          "label": "Zlatnici",
+          "count": 23
+        },
+        {
+          "value": "silver_bars",
+          "label": "Srebrne poluge",
+          "count": 18
+        },
+        {
+          "value": "silver_coins",
+          "label": "Srebrnjaci",
+          "count": 8
+        }
+      ]
+    },
+    "metadata": {
+      "lastScrapeTime": "2024-01-15T12:00:00Z",
+      "nextUpdateIn": "30 minutes",
+      "totalShops": 5
+    }
+  }
+}
+
